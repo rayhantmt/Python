@@ -1,4 +1,4 @@
 age=        23
 name ="rayhan "
-name=f'{age}'
+name=f'{name}'f'{age}'
 print(name)
