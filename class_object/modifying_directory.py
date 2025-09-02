@@ -3,6 +3,7 @@ class car:
         self.brand=brand
         self.model=model
     def displayinfo(self):
+        self.brand="BMW"
         print(f"Car brand: {self.brand} and model: {self.model}")
 obj=car("Mercedez","Benz")
 obj.brand="Ford"
