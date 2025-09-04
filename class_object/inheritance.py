@@ -66,3 +66,5 @@ zookeeper.move_animal(snake)
 
 fox.speak()
 snake.rest()
+parrot.fly()
+fox.warm_blooded()
