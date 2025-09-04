@@ -10,6 +10,10 @@ class Aminal:
         print(f"{self.name} is sleeping.")
     def rest(self):
         print(f"{self.name} is resting.")
+
+
+
+
 class mammal(Aminal):
     def __init__(self,name,specis,is_warm_blooded=True):
         super().__init__(name,specis)
@@ -23,6 +27,9 @@ class mammal(Aminal):
         print(f"{self.name} of {self.specis} speaks.")
 #birds = mammal("Bird","Reptile",is_warm_blooded=True)
 #birds.idennity()
+
+
+
 class Bird(Aminal):
     def __init__(self,name,specis,can_fly=True):
         super().__init__(name,specis)
@@ -34,6 +41,9 @@ class Bird(Aminal):
             print(f"{self.name} is not flying.")
     def speak(self):
         print(f"{self.name} of {self.specis} speaks.")
+
+
+
 
 class Zookeeper():
     def __init__(self,name):
@@ -54,3 +64,5 @@ zookeeper.move_animal(snake)
 
 
 
+fox.speak()
+snake.rest()
