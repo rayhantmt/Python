@@ -16,6 +16,5 @@ def userinput():
         print(f'Random values are not the same as input  {randomvalue1} is the first random value and {randomvalue2} is the second random value')
     return
 userinput()
-#def randomising1(userdata):
-    ##return
+
 
