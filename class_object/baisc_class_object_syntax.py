@@ -8,3 +8,6 @@ class Person:
 
 rayhan=Person("Rayhan", 19)
 rayhan.displayinfo()
+print(rayhan.name)
+print(rayhan.age)
+print(rayhan.displayinfo())
