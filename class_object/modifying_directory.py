@@ -9,3 +9,9 @@ obj=car("Mercedez","Benz")
 obj.brand="Ford"
 obj.model="Mustang"
 obj.displayinfo()
+print(obj.brand)
+print(obj.model)
+print(obj.displayinfo())
+obj.brand="BMW"
+obj.model="Mercedez"
+obj.displayinfo()
