@@ -61,6 +61,8 @@ zookeeper=Zookeeper("Rahim")
 zookeeper.feed(fox)
 zookeeper.put_to_sleep(parrot)
 zookeeper.move_animal(snake)
+zookeeper.put_to_sleep(snake)
+zookeeper.move_animal(snake)
 
 
 
@@ -68,3 +70,5 @@ fox.speak()
 snake.rest()
 parrot.fly()
 fox.warm_blooded()
+print(parrot.rest())
+print(parrot.rest())
