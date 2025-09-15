@@ -1,6 +1,7 @@
 class myclass():
     def  __len__(self):
-        return 0;
+        return "rayhan";
 
 obj=myclass()
-print(bool(obj))
+print(obj)
+
