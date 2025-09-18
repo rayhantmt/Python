@@ -1,0 +1,6 @@
+print(True or "Rayhan")
+print("Rayhan" or True)
+print("It will take the first value if that's not flase or zero" or "If the first value if non zero or ture it will always thake the first vlaue")
+print(False or 0)
+print(0 or False)
+print("Conclusion firstly if any value is true then it will the true value secondly if one is ture and one is false the it will take the first true value thirdly if both value is false then it will take the last false value and if the both value is true then it will take the first ture value")
