@@ -5,3 +5,4 @@ print(Boidata.values())
 print(Boidata['age'])
 Boidata['age']=2
 print(Boidata)
+print(Boidata.get('color','Blue'))
