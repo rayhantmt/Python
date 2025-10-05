@@ -10,4 +10,5 @@ Boidata.pop('age')
 #pop will return and delete the item form the dict
 
 print(Boidata)
-print(Boidata.keys())
+#using the list method helps to get the keys as a list
+print(list(Boidata.keys()))
