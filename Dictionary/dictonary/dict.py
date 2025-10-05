@@ -7,4 +7,7 @@ Boidata['age']=2
 print(Boidata)
 print(Boidata.get('color','Blue'))
 Boidata.pop('age')
+#pop will return and delete the item form the dict
+
 print(Boidata)
+print(Boidata.keys())
