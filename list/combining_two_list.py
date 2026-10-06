@@ -10,5 +10,5 @@ print('The pop function returns the last element and removes it from the list')
 print(x)
 
 print(bird)
-bird.sort(key=str.upper())
+#bird.sort(key=str.upper())
 print(bird)

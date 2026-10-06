@@ -1,4 +1,7 @@
-txt = "Hello World!"
+import numpy as np
 
-print(txt.count('H'))
-print(txt.center(490))
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+print("Element-wise:\n", A * B)
+print("Matrix multiply:\n", A @ B)

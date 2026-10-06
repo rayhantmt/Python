@@ -5,7 +5,8 @@ print(Boidata.values())
 print(Boidata['age'])
 Boidata['age']=2
 print(Boidata)
-print(Boidata.get('color','Blue'))
+print('using the getter method in dict ')
+print(Boidata.get('age',))
 Boidata.pop('age')
 #pop will return and delete the item form the dict
 
